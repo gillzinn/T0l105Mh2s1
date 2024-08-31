@@ -28,9 +28,15 @@ window.onload = function init()
     // p must lie inside any set of three vertices
 
     var u = add( vertices[0], vertices[1] );
+    console.log(u);
     var v = add( vertices[0], vertices[2] );
-    var p = scale( 0.25, add( u, v ) );
+    console.log(v);
 
+    //var p = scale( 0.25, add( u, v ) );
+    
+
+    var p = vec2(100, 100);
+    console.log(p);
     // And, add our initial point into our array of points
 
     points = [ p ];
